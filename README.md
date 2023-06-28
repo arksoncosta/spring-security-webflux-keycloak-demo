@@ -1,7 +1,8 @@
 # spring-security-webflux-keycloak-demo
 
 ## How to get access token over username and password ?
-Just run a command bellow
+Just run the command bellow
+
 curl --location --request POST 'http://localhost:8082/realms/my-demo/protocol/openid-connect/token' \
 --header 'Content-Type: application/x-www-form-urlencoded' \
 --data-urlencode 'client_id={client_id}' \
