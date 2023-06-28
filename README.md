@@ -1,5 +1,8 @@
 # spring-security-webflux-keycloak-demo
 
+## Keycloak with docker
+Run docker-compose up command
+
 ## How to get access token over username and password ?
 Just run the command bellow
 
